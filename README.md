@@ -1,3 +1,4 @@
+# Vercel Deployment Link - https://vows-vibes-r2-assignment.vercel.app/
 # Bhagavad Gita Website
 
 A beautiful, responsive website built with SvelteKit and Tailwind CSS, featuring the Bhagavad Gita with sections on Ayurveda, Yogasutras, Upanisads, and Sanskrit.
