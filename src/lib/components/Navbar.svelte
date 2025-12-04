@@ -47,9 +47,9 @@
                         on:mouseleave={() => openMenu = ""}
                     >
                         <div class="py-3 normal-case">
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">Introduction</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">Timing</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">Food</p>
+                            <a href="#ayurveda-introduction" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">Introduction</a>
+                            <a href="#ayurveda-timing" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">Timing</a>
+                            <a href="#ayurveda-food" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">Food</a>
                         </div>
                     </div>
                 {/if}
@@ -81,11 +81,11 @@
                         on:mouseleave={() => openMenu = ""}
                     >
                         <div class="py-3 normal-case">
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">Introduction</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">Obstacles</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">Practices</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">Yogāsana</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">Glossary</p>
+                            <a href="#yoga-introduction" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">Introduction</a>
+                            <a href="#yoga-obstacles" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">Obstacles</a>
+                            <a href="#yoga-practices" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">Practices</a>
+                            <a href="#yoga-asana" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">Yogāsana</a>
+                            <a href="#yoga-glossary" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">Glossary</a>
                         </div>
                     </div>
                 {/if}
@@ -124,14 +124,14 @@
                         on:mouseleave={() => openMenu = ""}
                     >
                         <div class="py-3">
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">ĪŚOPANIṢAD</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">TAITTIRĪYOPANIṢAD</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">MĀṆḌŪKYOPANIṢAD</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">KENOPANIṢAD</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">KAṬHOPANIṢAD</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">AITAREYOPANIṢAD</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">MUṆḌAKOPANIṢAD</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">PRĀŚNOPANIṢAD</p>
+                            <a href="#isa-upanisad" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">ĪŚOPANIṢAD</a>
+                            <a href="#taittiriya-upanisad" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">TAITTIRĪYOPANIṢAD</a>
+                            <a href="#mandukya-upanisad" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">MĀṆḌŪKYOPANIṢAD</a>
+                            <a href="#kena-upanisad" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">KENOPANIṢAD</a>
+                            <a href="#katha-upanisad" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">KAṬHOPANIṢAD</a>
+                            <a href="#aitareya-upanisad" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">AITAREYOPANIṢAD</a>
+                            <a href="#mundaka-upanisad" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">MUṆḌAKOPANIṢAD</a>
+                            <a href="#prasna-upanisad" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">PRĀŚNOPANIṢAD</a>
                         </div>
                     </div>
                 {/if}
@@ -162,11 +162,11 @@
                         on:mouseleave={() => openMenu = ""}
                     >
                         <div class="py-3 normal-case">
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 whitespace-nowrap">Devotional Songs</p>
+                            <a href="#devotional-songs" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 whitespace-nowrap no-underline text-inherit">Devotional Songs</a>
 
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">Grammar Songs</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">Fun Songs</p>
-                            <p class="px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300">Script Songs</p>
+                            <a href="#grammar-songs" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">Grammar Songs</a>
+                            <a href="#fun-songs" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">Fun Songs</a>
+                            <a href="#script-songs" class="block px-5 py-2 hover:bg-gray-50 hover:text-[#deb887] cursor-pointer transition-colors duration-300 no-underline text-inherit">Script Songs</a>
                         </div>
                     </div>
                 {/if}

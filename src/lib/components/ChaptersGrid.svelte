@@ -1,6 +1,13 @@
 <script>
+       import { createEventDispatcher } from "svelte";
     import chapterImage from '$lib/assets/images/chapterImage.png';
+
+      const dispatch = createEventDispatcher();
     let chapters = Array.from({ length: 18 }, (_, i) => i + 1);
+
+        function openChapter(ch) {
+            dispatch("chapterClick", ch);
+    }
 </script>
 
 <section class="py-0 pb-16 sm:pb-20 md:pb-28 mt-[-30px] sm:mt-[-45px] md:mt-[-60px] mb-[-40px] sm:mb-[-60px] md:mb-[-78px]">
@@ -22,7 +29,7 @@
 
 
     <!-- grid -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-12 sm:gap-x-8 sm:gap-y-16 md:gap-x-12 md:gap-y-24 max-w-[1200px] mx-auto px-4 sm:px-8 md:px-12 lg:ml-18 mt-6">
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-12 sm:gap-x-8 sm:gap-y-16 md:gap-x-12 md:gap-y-24 max-w-[1200px] mx-auto px-4 sm:px-8 md:px-12 lg:ml-0 mt-6">
 
         {#each chapters as ch}
             <div class="flex justify-center">
@@ -38,7 +45,12 @@
                         duration-300
                         relative
                         mb-[20px] sm:mb-[25px] md:mb-[30px]
-                    "
+
+                        "
+                        role="button"
+                        tabindex="0"
+                        on:click={() => openChapter(ch)}
+                        on:keydown={(e) => (e.key === 'Enter' || e.key === ' ') && openChapter(ch)}
                 >
 
                     <!-- Inner unrotated wrapper -->
